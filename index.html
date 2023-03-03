@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resposive design</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="favicon.ico" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="contenedor">
+        <a href="/" class="logo">
+          <img class="logo__image" src="pow.svg" alt="logo" />
+          <span class="text-bold">Blog<b>Mascotas</b> </span>
+        </a>
+        <nav>
+          <ul class="nav-lista">
+            <li class="nav__item"><a href="#">Nosotros</a></li>
+            <li class="nav__item"><a href="#">Adoptame</a></li>
+            <li class="nav__item"><a href="#">Donaciones</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- Header Fin-->
+
+    <!-- Hero Section -->
+    <!-- Hero (imagen de arriba de la p+agina) -->
+    <section class="hero">
+      <div class="overlay">
+        <div class="contenedorHero">
+          <h1 class="hero__title">
+            Un blog sobre el cuidado y consejos para tus mascotas
+          </h1>
+          <p class="hero__description">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Hero Section , End-->
+
+    <main class="main">
+      <!-- Blog -->
+      <div class="blog contenedor">
+        <div class="blog__articulos">
+          <h2 class="section__title">Nuestro blog</h2>
+          <!--  emmet : ul>li*5>a{$} -->
+          <!-- <ul>
+      <li><a href="">1</a></li>
+      <li><a href="">2</a></li>
+      <li><a href="">3</a></li>
+    </ul> -->
+          <!-- articulo 1 -->
+          <article class="blog__articulo">
+            <div class="blog__image">
+              <img src="images/p1.jpeg" alt="imagen1" />
+            </div>
+            <div class="blog__info">
+              <h3 class="blog__name">Lorem, ipsum dolor.</h3>
+              <div class="blog__article">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+                porro veritatis explicabo debitis ipsam? Adipisci error dolor
+                voluptate unde itaque cum accusantium beatae aliquid laborum,
+                odit earum alias fugiat quisquam explicabo deserunt. Nostrum
+                voluptatem natus quam in quidem voluptatibus esse deleniti? Rem,
+                minima eius commodi culpa incidunt laboriosam beatae harum.
+              </div>
+              <a class="blog__link" href=""
+                ><div class="blog__link_Label">Leer más</div>
+              </a>
+            </div>
+          </article>
+          <!-- articulo 1. fin -->
+          <!-- articulo 2.  -->
+          <article class="blog__articulo">
+          <div class="blog__image">
+            <img src="images/p2.jpeg" alt="imagen2" />
+          </div>
+          <div class="blog__info">
+            <h3 class="blog__name">Lorem, ipsum dolor.</h3>
+            <div class="blog__article">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+              porro veritatis explicabo debitis ipsam? Adipisci error dolor
+              voluptate unde itaque cum accusantium beatae aliquid laborum,
+              odit earum alias fugiat quisquam explicabo deserunt. Nostrum
+              voluptatem natus quam in quidem voluptatibus esse deleniti? Rem,
+              minima eius commodi culpa incidunt laboriosam beatae harum.
+            </div>
+            <a class="blog__link" href=""
+              ><div class="blog__link_Label">Leer más</div>
+            </a>
+          </div>
+        </article>
+          <!-- articulo 2. fin -->
+          <!-- articulo 3 -->
+          <article class="blog__articulo">
+          <div class="blog__image">
+            <img src="images/p3.jpeg" alt="imagen3" />
+          </div>
+          <div class="blog__info">
+            <h3 class="blog__name">Lorem, ipsum dolor.</h3>
+            <div class="blog__article">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+              porro veritatis explicabo debitis ipsam? Adipisci error dolor
+              voluptate unde itaque cum accusantium beatae aliquid laborum,
+              odit earum alias fugiat quisquam explicabo deserunt. Nostrum
+              voluptatem natus quam in quidem voluptatibus esse deleniti? Rem,
+              minima eius commodi culpa incidunt laboriosam beatae harum.
+            </div>
+            <a class="blog__link" href=""
+              ><div class="blog__link_Label">Leer más</div>
+            </a>
+          </div>
+        </article>
+          <!-- articulo 3 fin -->
+
+          <!-- ---------------------------------------------------- -->
+          <!-- Pararalax: el fondo queda fijo mientras nos desplazamos -->
+          <div class="image__paralax">
+            <div class="overlay"></div>
+            <svg class="image__bottom"></svg>
+          </div>
+
+          <!-- Adoption -->
+          <section id="adoption">
+            <div class="contenedor">
+              <h2 id="adoption__title">Adoptame</h2>
+              <br />
+              <p id="adoption__discription">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae
+                tempora quam nobis nisi facilis, obcaecati soluta eos iste quo
+                cumque dolor nam officiis earum porro ipsa assumenda beatae
+                autem temporibus!
+              </p>
+            </div>
+          </section>
+        
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">&copy; AGLA 2023</footer>
+  </body>
+</html>

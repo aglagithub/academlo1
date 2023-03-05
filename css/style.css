@@ -281,8 +281,8 @@ img {
 .footer {
     color: black;
     font-size: 1.1rem;
-    display: inline-block;
-    margin: auto;
+    text-align: center;
+
 }
  
 /* footer. end */

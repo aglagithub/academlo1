@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Store Products</title>
+    <style>
+      /* Add some basic styles */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      h1 {
+        text-align: center;
+        margin-top: 50px;
+      }
+
+      /* Define the product grid container */
+      .product-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-auto-rows: auto;
+        grid-gap: 20px;
+        padding: 20px;
+      }
+
+      /* Style the product cards */
+      .product-card {
+        border: 1px solid #ccc;
+        background-color: #fff;
+        padding: 20px;
+        box-shadow: 0px 0px 10px #ccc;
+      }
+
+      .product-card h2 {
+        margin-top: 0;
+        margin-bottom: 10px;
+      }
+
+      .product-card p {
+        margin-top: 0;
+        margin-bottom: 10px;
+      }
+
+      .product-card img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+      }
+
+      .product-card button {
+        display: block;
+        margin: 0 auto;
+        padding: 10px 20px;
+        background-color: #f44336;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+      }
+
+      .product-card button:hover {
+        background-color: #d32f2f;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Store Products</h1>
+    <div class="product-grid">
+      <div class="product-card">
+        <h2>Product 1</h2>
+        <img src="https://via.placeholder.com/250x250" alt="Product 1" />
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+          euismod urna vitae ante bibendum elementum. Duis sed tempor enim.
+        </p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <h2>Product 2</h2>
+        <img src="https://via.placeholder.com/250x250" alt="Product 2" />
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+          euismod urna vitae ante bibendum elementum. Duis sed tempor enim.
+        </p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <h2>Product 3</h2>
+        <img src="https://via.placeholder.com/250x250" alt="Product 3" />
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+          euismod urna vitae ante bibendum elementum. Duis sed tempor enim.
+        </p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <h2>Product 4</h2>
+        <img src="https://via.placeholder.com/250x250" alt="Product 4" />
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+          euismod urna vitae ante bibendum elementum. Duis sed tempor enim.
+        </p>
+        <button>Add to Cart</button>
+      </div>
+    </div>
+  </body>
+</html>

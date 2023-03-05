@@ -246,6 +246,11 @@ img {
     color: black;
     font-size: 1.1rem;
     text-shadow: none;
+
+}
+
+.blog__link{
+    margin: 1rem auto;
 }
 
 /******/
